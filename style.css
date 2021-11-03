@@ -1,0 +1,56 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100vh;
+  background-color:crimson;
+  margin: 0;
+}
+
+h1{
+  margin: 3rem ;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+select{
+  border: 2px solid #b9eb9c;
+  border-radius: 8px;
+  padding: 5px 20px;
+  font-weight: 400;
+  min-width: 20%;
+  background-color: transparent;
+}
+
+table {
+  border-collapse: collapse;
+  background-color:darkgrey;
+  overflow-x: auto;
+  width: 70%;
+  height: 110px;
+  border-radius: 8px;
+  ;
+}
+
+th, td {
+  font-family: 'Poppins';
+  text-align: left;
+  font-size: 14px;
+  padding: 10px;
+}
+
+thead th {
+  background-color: #5EAAA8;
+  color:brown;
+  position: sticky;
+  top: 0;
+}
+
+tbody td{
+  overflow-x:auto;
+}
+
+.Hidden{
+  display: none;
+}
